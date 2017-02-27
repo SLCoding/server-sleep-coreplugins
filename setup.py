@@ -7,8 +7,9 @@ setup(name='server-sleep-coreplugins',
       author='SourceLan',
       author_email='schuette.marcus@googlemail.com',
       license='MIT',
-      packages=['server_sleep_coreplugins'],
+      packages=['server_sleep_coreplugins.coreplugins'],
       install_requires=[
+          'server-sleep',
           'server-sleep-api',
           'configparser'
       ],
