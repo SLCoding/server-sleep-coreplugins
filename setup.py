@@ -9,6 +9,7 @@ setup(name='server-sleep-coreplugins',
       license='MIT',
       packages=['server_sleep_coreplugins'],
       install_requires=[
+          'server-sleep',
           'server-sleep-api',
           'configparser'
       ],
